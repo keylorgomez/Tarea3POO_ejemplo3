@@ -12,12 +12,12 @@ public class Menu {
     public void MostrarMenu() {
         Scanner scanner = new Scanner(System.in);
         int opcion;
-        String mensajeOpciones = "Realizar acción: \n" +
+        String mensajeOpciones = "Escoja una opción: \n" +
                 "1) Comer\n" +
                 "2) Dormir\n" +
                 "3) Trabajar\n" +
                 "4) Como se encuentra?\n" +
-                "5) salir";
+                "5) Salir";
 
         do {
             System.out.println(mensajeOpciones);
